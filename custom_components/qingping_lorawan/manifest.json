@@ -1,0 +1,27 @@
+{
+  "domain": "qingping_lorawan",
+  "name": "Qingping LoRaWAN",
+  "codeowners": [
+    "@balloob"
+  ],
+  "config_flow": true,
+  "connectivity": [
+    "lorawan"
+  ],
+  "dependencies": [
+    "lorawan"
+  ],
+  "documentation": "https://github.com/balloobbot/home-assistant-qingping-lorawan",
+  "integration_type": "hub",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/balloobbot/home-assistant-qingping-lorawan/issues",
+  "lorawan": [
+    [
+      "tts",
+      "rakwireless"
+    ]
+  ],
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

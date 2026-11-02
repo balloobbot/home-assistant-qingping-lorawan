@@ -1,0 +1,24 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Qingping is already configured",
+      "no_lorawan_connections": "Set up a LoRaWAN connection first.",
+      "no_supported_devices": "No supported Qingping devices were found on your LoRaWAN connections.",
+      "single_instance_allowed": "Qingping is already configured"
+    },
+    "step": {
+      "confirm": {
+        "description": "Set up Qingping devices from your LoRaWAN connections."
+      }
+    }
+  },
+  "entity": {},
+  "exceptions": {
+    "command_timeout": {
+      "message": "Timed out waiting for the device to acknowledge the command."
+    },
+    "command_failed": {
+      "message": "Unable to send the command to the device."
+    }
+  }
+}
